@@ -110,12 +110,12 @@ $(document).ready(function(){
     });
 
     $('form').on('submit', function (e) {
+        e.preventDefault();
         $('input.product_name').each(function () { $(this).rules("add", { required: true }); });
         $('select.unit').each(function () { $(this).rules("add", { required: true }); });
         $('input.quantity').each(function () { $(this).rules("add", { required: true }); });
         $('input.unit_price').each(function () { $(this).rules("add", { required: true }); });
         $('input.row_sub_total').each(function () { $(this).rules("add", { required: true }); });
-        e.preventDefault();
     });
 
     $('form').validate({
