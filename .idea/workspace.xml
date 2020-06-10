@@ -20,62 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6bb2157-dbd6-4310-beee-9490a40e4238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GeneralController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Locale.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locale.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/bootstrap-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/fontawesome/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/pickadate/classic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/pickadate/classic.date.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/pickadate/classic.time.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/css/pickadate/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/fontawesome/all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/form_validation/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/form_validation/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/form_validation/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/form_validation/messages_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/pickadate/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/pickadate/picker.date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/pickadate/picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/js/pickadate/picker.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/custom/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Emails/emails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/Frontend/frontend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/Emails/emails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/Frontend/frontend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/invoice/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/invoice/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partial/flash.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/invoice/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/invoice/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/app1.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,10 +157,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tareq Elbawab\Desktop\tem\resources\views" />
       <recent name="C:\Users\Tareq Elbawab\Desktop\tem\resources\lang" />
       <recent name="C:\Users\Tareq Elbawab\Desktop\tem\public\custom" />
       <recent name="C:\Users\Tareq Elbawab\Desktop\tem" />
@@ -232,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591634144843</updated>
       <workItem from="1591634153797" duration="4297000" />
-      <workItem from="1591805650940" duration="336000" />
+      <workItem from="1591805650940" duration="4765000" />
     </task>
     <servers />
   </component>
@@ -259,9 +211,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591635416853" />
-    <state x="642" y="359" key="NewPhpFileDialog" timestamp="1591715846140">
+    <state x="642" y="359" key="NewPhpFileDialog" timestamp="1591806726676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="642" y="359" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1591715846140" />
+    <state x="642" y="359" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1591806726676" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

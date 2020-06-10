@@ -23,6 +23,8 @@
 
      <link rel="stylesheet" href="{{ asset('custom/css/fontawesome/all.min.css') }}">
 
+     @yield('style')
+
  </head>
 
 <body data-layout="detached" data-topbar="colored">
@@ -365,6 +367,7 @@
                     </div>
                 </div>
                 <!-- end page title -->
+                @include('partial.flash')
                 @yield('content')
 
             </div>
@@ -393,7 +396,15 @@
 
 <script src="{{ asset('assets/js/app.js') }}"></script>
 
-<scrip src="{{ asset('custom/js/fontawesome/all.min.js') }}"></scrip>
+<script src="{{ asset('custom/js/fontawesome/all.min.js') }}"></script>
+<script>
+    $(function () {
+        $('#session-alert').fadeTo(2000, 500).slideUp(500, function () {
+            $('#session-alert').slideUp(500);
+        })
+    })
+</script>
 
+@yield('script')
 </body>
 </html>
