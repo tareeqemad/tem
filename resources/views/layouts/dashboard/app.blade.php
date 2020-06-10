@@ -13,9 +13,17 @@
     <!-- Icons Css -->
     <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{ asset('assets/css/app-rtl.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
 
-</head>
+     @if(config('app.locale') == 'ar')
+         <!-- App Css-->
+             <link href="{{ asset('assets/css/app-rtl.min.css') }}" rel="stylesheet" type="text/css" />
+     @endif
+
+
+     <link rel="stylesheet" href="{{ asset('custom/css/fontawesome/all.min.css') }}">
+
+ </head>
 
 <body data-layout="detached" data-topbar="colored">
 
@@ -54,12 +62,12 @@
                             <div class="dropdown-menu dropdown-menu-right">
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="{{ route('frontend_change_locale', 'ar') }}" class="dropdown-item notify-item">
                                     <img src="{{ asset('assets/images/flags/spain.jpg') }}" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
                                 </a>
 
                                 <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <a href="{{ route('frontend_change_locale', 'en') }}" class="dropdown-item notify-item">
                                     <img src="{{ asset('assets/images/flags/germany.jpg') }}" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
                                 </a>
 
@@ -382,8 +390,10 @@
 <script src="{{ asset('assets/libs/metismenu/metisMenu.min.js') }}"></script>
 <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
 <script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
- 
+
 <script src="{{ asset('assets/js/app.js') }}"></script>
+
+<scrip src="{{ asset('custom/js/fontawesome/all.min.js') }}"></scrip>
 
 </body>
 </html>
