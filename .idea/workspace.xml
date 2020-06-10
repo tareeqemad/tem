@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6bb2157-dbd6-4310-beee-9490a40e4238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/invoice/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partial/flash.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/InvoiceDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_10_182949_create_invoices_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_10_183257_create_invoice_details_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/invoice/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/invoice/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591634144843</updated>
       <workItem from="1591634153797" duration="4297000" />
-      <workItem from="1591805650940" duration="4765000" />
+      <workItem from="1591805650940" duration="5459000" />
     </task>
     <servers />
   </component>
@@ -211,6 +210,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591635416853" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591813701200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591813701200" />
     <state x="642" y="359" key="NewPhpFileDialog" timestamp="1591806726676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
