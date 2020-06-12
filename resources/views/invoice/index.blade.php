@@ -26,44 +26,34 @@
                         </tr>
                         </thead>
                         <tbody>
+                        @foreach($invoices as $invoice)
                             <tr>
-                                <td>Tareq</td>
-                                <td>sasda</td>
-                                <td>1212.00</td>
+                                <td><a href="{{ route('invoice.show', $invoice->id) }}">{{ $invoice->customer_name }}</a></td>
+                                <td>{{ $invoice->invoice_date }}</td>
+                                <td>{{ $invoice->total_due }}</td>
                                 <td>
-                                    <a href="" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
-                                    <a href="javascript:void(0)" onclick="if (confirm('{{ __('Frontend/frontend.r_u_sure') }}')) { alert(1)} else { return false; }" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
-
+                                    <a href="{{ route('invoice.edit', $invoice->id) }}" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
+                                    <a href="javascript:void(0)" onclick="if (confirm('{{ __('Frontend/frontend.r_u_sure') }}')) { document.getElementById('delete-{{ $invoice->id }}').submit(); } else { return false; }" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+                                    <form action="{{ route('invoice.destroy', $invoice->id) }}" method="post" id="delete-{{ $invoice->id }}" style="display: none;">
+                                        @csrf
+                                        @method('DELETE')
+                                    </form>
                                 </td>
                             </tr>
+                        @endforeach
                         </tbody>
                         <tfoot>
                         <tr>
                             <td colspan="4">
                                 <div class="float-right">
-                        112
+                                    {!! $invoices->links() !!}
                                 </div>
                             </td>
                         </tr>
                         </tfoot>
                     </table>
                 </div>
-
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
 @endsection

@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('change-language/{locale}', ['as' => 'frontend_change_locale', 'uses' => 'GeneralController@changeLanguage']);
+Route::get('invoice/print/{id}', ['as' => 'invoice.print', 'uses' => 'InvoiceController@print']);
+Route::get('invoice/pdf/{id}', ['as' => 'invoice.pdf', 'uses' => 'InvoiceController@pdf']);
 
 Route::get('/', 'InvoiceController@index')->name('index');
 Route::resource('invoice', 'InvoiceController');
+Route::get('/list_pdf', 'InvoiceController@list_pdf')->name('list_pdf');

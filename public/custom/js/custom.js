@@ -109,7 +109,7 @@ $(document).ready(function(){
         $('#total_due').val(sum_due_total());
     });
 
-    $('form').on('submit', function (e) {
+    $('.form_sub').on('submit', function (e) {
         e.preventDefault();
         $('input.product_name').each(function () { $(this).rules("add", { required: true }); });
         $('select.unit').each(function () { $(this).rules("add", { required: true }); });
@@ -118,7 +118,7 @@ $(document).ready(function(){
         $('input.row_sub_total').each(function () { $(this).rules("add", { required: true }); });
     });
 
-    $('form').validate({
+    $('.form_sub').validate({
         rules: {
             'customer_name' : { required:true },
             'customer_email' : { required:true, email:true },
